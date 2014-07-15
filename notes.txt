@@ -1,0 +1,202 @@
+--------------------------------------------------------
+5-12-14
+
+Hi Ronard,
+
+I trust you are cool? I would like to call your attention to some things to be done on the portal.
+
+1. The Automatic Voucher Recharging (AVR) that I sent the API should be included under the Admin Area
+
+2. The SMS notification (API Documentation Sent)
+
+3. Digital signature and stamp integration (The Full API will be purchased and you can evaluate on www.setasign.com) 
+
+should appear on the frame of every document uploaded. Individual Users should be able to add his / her own signature & stamp.
+
+4. Billing: Ability for Clients to be able to make payment from App. ( https://voguepay.com/developers) Please study. I am making negotiations with the payment platform
+
+5. Adding of Chat scripts for people on the same hosting plaform (IM)
+
+6. Ability to send private message and as well get message counts like FB.
+
+
+Please note that clients staff and clients created by Admin will have user account details that will be sent to their phone as SMS.
+
+Staff have access to everything on the portal except creating of staff and clients
+
+Roles and rights can be assigned by the Admin
+
+Roles - Chairman, Directors, HOC, DHOC, Secretary, Staff, Internship
+
+Rights - Memo, Task, AVR, 
+
+
+Find attached the SQL file for state and Local Area of Nigeria
+
+
+MOBILE BROWSER DETECTION
+
+For making our brand successfull, We should also include an automatic "Mobile Browser Detection & Redirection" server-side script. We might also use this as User Agent Detection, where a server makes a decision on what to serve based on how an incoming browser describes its capabilities. We might also want to use this as an alternative or fallback method to the previous one Mobile Browser Detection in PHP. Other implementations feature real-time JavaScript requests to database like DeviceAtlas or WURFL that also supply information n what is not complete until its automatically triggered 
+for every mobile user!
+
+Copy and Paste this PHP Code:
+Use this function to detect mobile handsets as set by the conditions above.
+
+<?php
+require_once('mobile_device_detect.php');
+mobile_device_detect(true,false,true,true,true,true,true,false,false);
+?>
+
+YOU CHECK http://detectmobilebrowsers.mobi/help/ for more info
+
+
+Let the Law firm app be friendly and customizable for law firm logo upload and name.
+
+
+
+
+----------------------------------------------------
+
+
+
+From: info@compitsols.com
+account email: shafricom@gmail.com
+account pass: 0230ga004
+-----------------------------------
+
+http://new.smslive247.com/public/index.aspx
+
+user: elewon_ritse@yahoo.com
+
+pass: 123456s
+
+sub-account: ColaSoft
+-----------------------------
+Task module
+
+for staff only..
+
+-------------------------------
+
+No, It should be pre-configured by client...
+
+Example...Law Firm Name:  Ronard & Hassan Law Firm Inc.
+
+Law firm Code: RHLF
+----------------------------------
+CLIENT FIELDS
+
+First Name
+Last Name
+Middle Name
+Email
+Phone No
+Date of birth
+Contact Address
+Passport Photo Upload
+Username
+Password
+
+The clients will only be able to login to see progress of their work with Law firm, track, Send message to law firm, make payment online, view billing and billing history, upload document to send to law firm per cases.
+
+Client account number should be auto-generated based on law firm configuration. I.e Prefix for different law firm. Example...
+
+Ronard Law Firm : RLF..........(Account Number)
+Hassan Law Firm : HLF.........(Account Number)
+
+Search for cases tied to their name or account only.
+
+Client should be able to edit profile.
+
+
+STAFF FIELDS
+
+First Name
+Last Name
+Middle Name
+Email
+Phone No
+Date of birth
+Contact Address
+Passport Photo Upload
+Username
+Password
+Department
+Designation
+
+Later on, Staff can update info just like it is on the Mypage on Precurio
+
+The Mycase trial is left with 10 days
+
+
+----------------------------------------------------
+
+No, Native mobile application. You can download mobile app for www.mycase.com to see how it works.
+
+-------------------------------------------------------------------------------
+
+Hi,
+
+I just got a call that the law firm software should be completed and delivered by the end of this month.
+
+How far have you gone? Please try and create an activity log menu / icon in the Admin area only so that he can track all users. I.e admin can track log per user.
+ I don't want it to be displaying on the user profile so that it won't mess every page up.
+ Users and admin should also have notification icon for MESSAGE, Notification just like facebook and on user wall, 
+ user should be able to post something for one on one or for all just like facebook
+
+----------------------------------------------------------------------------
+
+No limit to file upload as court or case processes are always large.
+
+File format allowed are .pdf, .docx, .doc, .ppt, .jpg, .png, .xls, .csv, 
+
+File should have option to view within an iframe and also option to download.
+
+Have you been able to sort the PDO connection issue? 
+
+---------------------------------------------------------------------
+
+Our fields will be Name, Department, Designation, Phone number and Amount which will be made available from the Data inputed by the ADMIN in the course of creating account for staff (Users).
+
+------------------------------------------------------------------------
+
+Hi,
+
+For the recharge card module. Find attached an API documentation for integration.
+
+You can check this site where the API is tied to for model design. 
+https://www.topupgenie.com/
+
+What is needed in this module is an option to type in amount to be sent to all or any selected staff and as well selecting network provider type. 
+A report and activity logs should be printed on a schedule basis using calendar for a staff or all staff.
+
+All staff name, designation, department and phone number is what should be captured here.
+
+This data would imported by the staff created by Admin. 
+
+You can sign up to see how it works. I will send you an account for integration link.
+
+---------------------------------------------------------------
+
+Employee and Users are the same. But clients (Customers) can be created by Admin
+
+> Client comes to the office directly
+---------------------------------------------------------------
+
+The Admin will be able to create users based on Roles (Access Control Limit). 
+User will get email notification and SMS alert after account creation but user will be able to change password in profile.
+
+Every completed action triggers email and SMS alert that can be disabled by the user and Admin.
+
+Admin will also be able to create client profile and clients will be receiving emails and SMS also on every update on there matter. It can also be disabled by Admin.
+
+
+--------------------------------------------------------------
+
+
+www?.prodraw.net/favicon/  - favicon creation
+
+
+I like it very well. Our model are the precurio for GUI and https://ron.mycase.com/ for functionality.
+
+Sent from my BlackBerry wireless device from MTN

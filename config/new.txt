@@ -1,0 +1,14 @@
+<?php
+$config['dbms'] = 'mysql';
+$server = 'mysql.main-hosting.com';
+$db_uname = 'u698204372_lw';
+$db_upass = '123456s';
+$db = 'u698204372_lw';
+  
+  $connection = mysql_connect("$server", "$db_uname", "$db_upass");
+  if($connection) {
+    echo "Connected.";
+  } else {
+    echo "Not connected.";
+  }
+?>

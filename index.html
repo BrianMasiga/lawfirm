@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html class="ui-mobile-nosupport-boxshadow ui-mobile portrait undefined max-width-320px max-width-480px max-width-768px max-width-1024px">
+<head>
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta charset="utf-8">
+<title>Crime Scene</title>
+
+<link href="jquery.mobile-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.3.2.min.js"type="text/javascript"></script>
+<script type="text/javascript" src="src/jquery.ajaxLoading.js"></script>
+<style type="text/css">
+img{
+   border-radius:30px;	
+   
+}
+@media all and (min-width: 36em){
+	.main { float: left; width:60%; }
+	.sidebar { float: left; width:40%; }
+}
+
+/* Second breakpoint at 800px */
+/* Adjusts column proportions, tweaks base H1 */
+@media all and (min-width: 50em){
+	.main { width:70%; }
+	.sidebar { width:30%; }
+
+	/* You can also tweak any other styles in a breakpoint */
+	h1 { color: blue; font-size:1.2em }
+}
+
+
+
+
+a{
+text-decoration:none;	
+}
+
+p{
+
+
+}
+
+label{
+ color:black;	
+}
+
+h4{
+
+}
+
+.splash {
+   align: center;
+   margin-top:30px;
+}
+</style>
+
+</head> 
+
+<body> 
+
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript">
+	$(function(){
+
+		$.fn.ajaxLoading().register([
+			{
+				element:'#test',
+				type:'image',
+				src:'img/indicator.gif',
+				url:['http://localhost:3000/','http://localhost:3000/json']
+			}
+		]);
+
+		$.fn.ajaxLoading({
+			onStatistics:true
+		});
+
+		$('.btnStartLoading').on('click',function(){
+			$.ajax({
+			    url:"http://localhost:3000/"
+		    });
+		    $.ajax({
+		    	url:"http://localhost:3000/json",
+		    	dataType:'json'
+		    }).done(function(){
+		    	alert($.fn.ajaxLoading().getStatistics()[0].timeCost);
+		    	alert($.fn.ajaxLoading().getStatistics()[0].times);
+		    });
+		});
+
+
+	});
+	
+	$(function() {
+  setTimeout(hideSplash, 9000);
+});
+
+function hideSplash() {
+  $.mobile.changePage("index.php", "fade");
+}
+
+
+
+</script>
+  </script>
+	
+<div id="test"></div>
+<div data-role="page" data-theme="b" id="splash" style="background-color: black"> 
+    <div class="splash">
+	<center>
+        <img src="splashscreen.png" alt="splash" />
+		<span style="color:red; font-family:Nexa Light; font-weight:bold; text-align:center">Loading......</span>
+		<center>
+    </div>
+</div>
+
+<div id="test"></div>
+
+</body>
+</html>

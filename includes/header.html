@@ -1,0 +1,88 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link rel="shortcut icon" href="_img/logo.jpg"/>
+		<link href="css/style.css" rel="stylesheet">
+		<title>Complete Law Firm Management Software</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+		<link href="css/docs.css" rel="stylesheet" media="screen">
+		<link href="css/diapo.css" rel="stylesheet" media="screen">
+		<link href="css/font-awesome.css" rel="stylesheet" media="screen">
+	<!-- js -->			
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		
+		<link href="hover_scroll/jquery-ui-1.css" type="text/css" rel="stylesheet">
+		<link href="hover_scroll/jquery.css" type="text/css" rel="stylesheet">
+	
+		<script type="text/javascript" src="hover_scroll/jquery-1.js"></script>
+		<script type="text/javascript" src="hover_scroll/jquery-ui-1.js"></script>
+		<script type="text/javascript" src="hover_scroll/jquery.js"></script>
+		<script type="text/javascript" src="hover_scroll/main.js"></script>
+		
+	<!-- Boxes -->	
+		<script src="js/login.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$("#case_menu").click(function () {
+					if ($("#menudiv").is(":hidden")) {
+						$("#menudiv").slideDown("slow");
+					} else {
+						$("#menudiv").slideUp("slow");
+					}
+				});
+
+				$("#menudiv").mouseleave(function(){
+					$(this).slideUp("slow");
+					$("#sub_menudiv-agreements").slideUp("slow");
+					$("#sub_menudiv-probate").slideUp("slow");
+				});
+				$("#menu_opener1").click(function(){
+					$("#menudiv").slideUp("slow");
+				});
+		
+				$("#case_submenu-agreements").click(function () {
+					if ($("#sub_menudiv-agreements").is(":hidden")) {
+						$("#sub_menudiv-probate").slideUp("slow");
+						$("#sub_menudiv-agreements").slideDown("slow");
+					} else {
+						$("#sub_menudiv-agreements").slideUp("slow");
+					}
+				});
+				
+				$("#case_submenu-probate").click(function () {
+					if ($("#sub_menudiv-probate").is(":hidden")) {
+						$("#sub_menudiv-agreements").slideUp("slow");
+						$("#sub_menudiv-probate").slideDown("slow");
+					} else {
+						$("#sub_menudiv-probate").slideUp("slow");
+					}
+				});
+		
+			});
+	
+	</script>
+	</head>
+	<body marginheight="0" marginwidth="0">
+		<div id="main-wrapper">
+			<div id="header-wrapper">
+				
+				<div id="top-header">
+				</div>
+				
+				<div id="middle-header">
+					<div id="style-title">Complete Law Firm Management Software</div>
+					<div id="style-bar-title"></div>
+					<span style="display: inline-block; width: 3px; height: 3px"><span style="position: relative; display: inline-block; width: 3px; height: 3px"><i style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:12.5px solid transparent;border-right:12.5px solid #067eba;border-top:12.5px solid #067eba;left:0px;top:0px; margin-left: -24px; margin-top: px;"></i></span></span>
+				</div>
+					
+					<span style="display: inline-block; width: 3em; height: 3em"><span style="position: relative; display: inline-block; width: 3em; height: 3em"><i style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:2.5em solid transparent;border-right:2.5em solid #069eec;border-top:2.5em solid #069eec;left:0em;top:0em; margin-left: 320px; margin-top: -20px;"></i></span></span>
